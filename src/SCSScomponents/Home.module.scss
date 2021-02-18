@@ -1,0 +1,39 @@
+.Home{
+
+
+
+}
+
+
+.optionsFlex1{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+
+    .options{
+        width: 50%;
+    }
+
+
+}
+
+.optionsFlex2{
+    width: 100%;
+
+    display: flex;
+}
+
+.options{
+    border: 1px solid;
+
+    img{
+        max-height: 200px;
+        width: 100%;
+        object-fit: contain;
+    }
+
+    p{
+        text-align: center;
+    }
+}
+

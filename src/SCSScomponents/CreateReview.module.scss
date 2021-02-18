@@ -1,0 +1,57 @@
+.PostReview{
+    width: 750px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.intro,.overallRating,.comments{
+    border-bottom: 1px solid;
+}
+
+.intro{
+
+    div{
+        display: flex;
+        margin: 10px 0;
+    }
+
+    img{
+        max-width: 115px;
+        max-height: 123;
+    }
+}
+
+
+.overallRating{
+    
+    svg{
+        transition: all ease 0.2s;
+        margin: 10px 0;
+        cursor: pointer
+    }
+}
+
+
+.comments{
+    
+    div{
+        margin: 10px 0;
+
+        input, textarea{
+            width: 100%;
+            padding: 10px;
+        }
+    }
+}
+
+.submitBtn{
+    width: 225px;
+    padding: 10px 0;
+    cursor: pointer;
+    margin: 10px 0 0 auto;
+    display: block;
+}
+
+@media (max-width: 768px){
+
+}

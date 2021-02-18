@@ -1,0 +1,18 @@
+.Container{
+    border: 1px solid;
+    max-width: 100%;
+
+    p{
+        font-size: 20px;
+    }
+
+    a{
+        display: inline-block;
+        background: linear-gradient(to bottom,#f7dfa5,#f0c14b);
+        text-decoration: none;
+        border: 1px solid;
+        padding: 6px;
+        width: 100%;
+        text-align: center;
+    }
+}

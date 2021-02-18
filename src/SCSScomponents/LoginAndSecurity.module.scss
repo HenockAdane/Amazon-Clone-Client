@@ -1,0 +1,46 @@
+.LoginAndSecurity{
+    width: 600px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+
+    a{
+        display: inline-block;
+        width: 70px;
+        padding: 6px 0;
+        text-decoration: none;
+        color: black;
+        text-align: center;
+    }
+
+    .editBtn{
+        background-color: #e4e5e9;
+    }
+
+    .doneBtn{
+        margin: 10px 0;
+        background: linear-gradient(to bottom,#f7dfa5,#f0c14b);
+    }
+}
+
+.optionsContainer{
+
+    .options{
+        display: flex;
+        justify-content: space-between;
+        align-self: center;
+        padding: 20px;
+    }
+
+    .options:nth-child(odd){
+        border: 1px solid;
+    }
+
+    .options:nth-child(even){
+        border-right: 1px solid;
+        border-left: 1px solid;
+    }
+}
+
+
+

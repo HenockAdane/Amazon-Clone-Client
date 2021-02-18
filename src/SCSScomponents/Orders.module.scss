@@ -1,0 +1,59 @@
+.order{
+    border: 1px solid;
+    
+}
+
+.intro{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.name{
+    text-decoration: none;
+    color: blue;
+
+    &:hover{
+        text-decoration: underline;
+        color: orange;
+    }
+}
+
+.addToBasketBtn,.viewProductBtn{
+    width: 230px;
+    cursor: pointer;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding: 3px;
+    border-radius: 2px;
+    border: none;
+    box-shadow: 2px 2px 1px rgba(0,0,0,1);
+
+
+
+    p{
+        width: 100%;
+        margin: 0;
+    }
+}
+
+.main{
+    display: flex;
+    align-items: center;
+
+    img{
+        width: 231px;
+        height: 231px;
+        object-fit: contain;
+    }
+}
+
+.addToBasketBtn{
+    background: linear-gradient(to bottom,#f7dfa5,#f0c14b);
+}
+
+.viewProductBtn{
+    background-color: #e4e5e9;
+    text-decoration: none;
+    color: black;
+}

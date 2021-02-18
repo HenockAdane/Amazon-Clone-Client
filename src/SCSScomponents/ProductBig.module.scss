@@ -1,0 +1,193 @@
+.ProductBig{
+    
+}
+
+.bigContainer1{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.imgsSection{
+    img {
+        cursor: pointer;
+    }
+    
+}
+
+.bigImg{
+    width: 231px;
+    height: 231px;
+    object-fit: contain;
+}
+
+.miniImgs{
+    img{
+        width: 115px;
+        height: 123px;
+        object-fit: contain;
+    }
+}
+
+.detailsContainer1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+     
+    a{
+        text-decoration: none;
+        color: #007185;
+    }
+
+}
+
+
+.detailsContainer2{
+    
+
+    p{
+        margin: 20px 0;
+    }
+
+}
+
+.quantity{
+    display: flex;
+    margin: 20px 0;
+
+    p{
+        margin: 0 2px 0 0;
+    }
+
+    button{
+        width: 25px;
+        margin: 0 2px;
+        
+    }
+}
+
+.addToBasketBtn,.buyNowBtn{
+    width: 230px;
+    cursor: pointer;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding: 3px;
+    border-radius: 2px;
+    border: none;
+    box-shadow: 2px 2px 1px rgba(0,0,0,1);
+
+
+
+    p{
+        width: 100%;
+        margin: 0;
+    }
+}
+
+.addToBasketBtn{
+    background: linear-gradient(to bottom,#f7dfa5,#f0c14b);
+}
+
+.buyNowBtn{
+    background: linear-gradient(to bottom,#f6c88f,#ed9220);
+    margin: 10px 0;
+
+}
+
+.logoContainers{
+    background-color: #131921;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+    padding: 1px;
+
+    svg,img{
+        color: white;
+    }
+}
+
+
+.bigContainer2{
+    display: flex;
+}
+
+.percentage{
+    display: flex;
+}
+
+.createReview{
+    margin: 10px 0;
+    
+    p{
+        margin: 10px 0;
+    }
+
+    a{
+        display: inline-block;
+        background-color: #e4e5e9;
+        width: 100%;
+        text-decoration: none;
+        border: 1px solid;
+        padding: 4px 0;
+        text-align: center;
+    }
+}
+
+.reviewsContainer{
+    background-color: black;
+    color: white;
+    width: 100%;
+    min-height: 100px;
+}
+
+@media (max-width: 768px){
+    .bigContainer1{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .imgsSection{
+        background-color: black;
+
+
+        .bigImg{
+            display: none;
+        }
+
+        .miniImgs{
+            width: 100%;
+            display: flex;
+            overflow-x: scroll;
+
+            img{
+                width: 100%;
+                object-fit: unset;
+                border: 1px solid white;
+            }
+        }
+    }
+
+    .detailsContainer1{
+
+        p{
+            margin: 15px 0;
+        }
+    }
+
+    .detailsContainer2{
+        
+        .addToBasketBtn,.buyNowBtn{
+            margin: 15px auto;
+            width: 500px;
+            max-width: 100%;
+            padding: 6px;
+        }
+    }
+
+    .bigContainer2{
+        flex-direction: column;
+        align-items: center;
+    }
+}
